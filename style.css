@@ -1,19 +1,20 @@
-/**********************************************************************
-Name:           Jose Campos-Munoz
-Date:           10/8/2019
-Class:          CS290 Fall 2019 400 
-Description:    Week 2 HW Assignment: HTML/CSS
-File:           style.css
-**********************************************************************/
-=================================
+/*========================================================================================= 
+Name:		            	Jose Campos-Munoz
+Date:			            10/11/2019
+Class:			          CS290: Web Development
+Description:	        HW Assignment 2: HTML/CSS
+			                For this week, we're creating a simple web page.
+File:			            style.css
+=========================================================================================*/
 
 h4{
     text-decoration: underline;
 }
 
-/*TABLE*/
+/*=======================================CREATING TABLE 6x6=======================================*/
+/* For choosing the specific color tone, I used the Color code source: "https://htmlcolorcodes.com/" */
 
-/* 1. Puts border around entire box and each cell*/
+/*Adding border around entire box and each cell*/
 table#table{
     border:1px solid black;
 }
@@ -26,40 +27,39 @@ table#table th{
     border:1px solid black;
 }
 
-/* 2. Makes alternate colors for odd and even rows*/
-/*Color code source: "https://htmlcolorcodes.com/" */
-
-/* Makes odd rows green-ish*/
+/****IMPLEMENTING EXTRA CREDIT: Making alternate colors for non-header rows ****/
+/* Making odd rows red-ish*/
 table#table tbody tr:nth-of-type(odd){
-    background-color:#58D68D;
+    background-color:#fc033d;
 }
-/* Makes even rows blue-ish*/
+/* Makes even rows yellow-ish*/
 table#table tbody tr:nth-of-type(even){
-    background-color:#5DADE2;
+    background-color:#fcd703;
 }
 
 
-/*DIV*/
+/*==============================================DIV================================================*/
 
-/*1. outer-content div*/
+/* outer-content divc*/
 
 div.outer-content{
-    /*Makes background color pink*/
+    /* color pink for background */
     background-color: pink;
-    /*Takes up 3/4 of page width*/
+    /* Taking up 3/4 of page width */
     margin-left: 0px;
     width: 75%;
-    /*Has a space of 20px between it and the previous element*/
+    /* Adding a space of 20px between it and the previous element */
     margin-top: 20px;
-    /*Below are not required for assignment, and done for person preference*/
+    /* Adding some properties to get a better design (for me) */
     margin-bottom: 20px;
     padding: 10px;
 }
 
+/* inner-content div */
+
 div.inner-content{
-    /*Makes background color blue*/
-    /*Note: Using "blue" was too dark, so a similar alternate was used. Code source: "https://htmlcolorcodes.com/" */
-    background-color: #5DADE2;
+    /* Color blue for inner content background */
+    background-color: #60c9e6;
     /*Makes inner-content div take up 3/4 of the page width of preant div width*/
     width: 75%;
     /*MAkes inner-content div be centerd*/
@@ -68,7 +68,7 @@ div.inner-content{
 }
 
 
-/*TWO FORMS*/
+/*================================================POST and GET FORMS===================================================*/
 
 label{
     border: 1px solid black;
@@ -76,7 +76,6 @@ label{
     display: block;
     margin: 0 auto;
 }
-
 
 section.radio{
     border: 1px solid black;
@@ -90,5 +89,5 @@ section.radio{
      border: none; 
      padding: 0;
      margin: 0;
-     padding: 3px;
+     padding: 10px;
  }
