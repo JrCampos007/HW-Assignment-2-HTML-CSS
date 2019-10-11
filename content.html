@@ -1,10 +1,11 @@
-<!-- 
+/========================================================================================= 
 Name:			Jose Campos-Munoz
-Date:			10/8/2019
-Class:			CS290 Fall 2019 400 
-Description:	Week 2 HW Assignment: HTML/CSS
+Date:			10/11/2019
+Class:			CS290: Web Development
+Description:		HW Assignment 2: HTML/CSS
+			For this week, we're creating a simple web page.
 File:			content.html
- -->
+=========================================================================================/ 
 
 <!DOCTYPE html>
 <html> 
@@ -14,9 +15,9 @@ File:			content.html
 </head>
 <body>
 
-<h4>I. 6x6 TABLE (WITH EXTRA CREDIT)</h4>
+<!-- Creating a 6x6 table (inclusive of the header row) and filling in the table with my own contents -->
+<h4>1. 6x6 TABLE (Extra Credit: non-header rows alternating colors)</h4>
 
-<!-- Create a 6x6 table (inclusive of the header row) and fill in the table with your own contents -->
 <table id="table">
 	<caption>WORK SCHEDULE (Mon-Fri): 5 employees.</caption>
 	<thead>
@@ -39,36 +40,36 @@ File:			content.html
 			<td>9-5pm</td>
 		</tr>
 		<tr>
-			<td><em>Marge</em></td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>5</td>
-			<td>6</td>
+			<td><em>Sindy</em></td>
+			<td>Off</td>
+			<td>1-9pm</td>
+			<td>Off</td>
+			<td>2-10pm</td>
+			<td>11-7pm</td>
 		</tr>
 		<tr>
-			<td><em>Bart</em></td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>5</td>
-			<td>6</td>
+			<td><em>Michael</em></td>
+			<td>2-10pm</td>
+			<td>3-11pm</td>
+			<td>12-9pm</td>
+			<td>11-8pm</td>
+			<td>off</td>
 		</tr>
 		<tr>
-			<td><em>Lisa</em></td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>5</td>
-			<td>6</td>
+			<td><em>Yvonne</em></td>
+			<td>8-1pm</td>
+			<td>9-3pm</td>
+			<td>12-6pm</td>
+			<td>off</td>
+			<td>2-10pm</td>
 		</tr>
 		<tr>
-			<td><em>Maggie</em></td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>5</td>
-			<td>6</td>
+			<td><em>Leslie</em></td>
+			<td>4-8pm</td>
+			<td>12-5pm</td>
+			<td>3-8pm</td>
+			<td>1-5pm</td>
+			<td>4-8pm</td>
 		</tr>
 	</tbody>
 	<tfoot>
@@ -79,25 +80,38 @@ File:			content.html
 	</tfoot>
 </table>
 
-<h4>II. LIST </h4>
-
-<!-- Create a list (ul, ol or dl) with at least 3 entries -->
-
-<ol>
-	<li>Ordered LI 1
-		<ul>
-			<li>Nested Unordered LI A</li>
-			<li>Nested Unordered LI B</li>
-			<li>Nested Unordered LI C</li>
-		</ul>
+<!-- Creating a list (ul, ol or dl) with at least 3 entries -->
+<h4>2. LIST </h4>
+<!--Top 3 Best selling game for Nintendo Switch, Xbox One, and Playstation 4 consoles (Wikipedia Source) -->
+<ul>
+	<li>Nintendo Switch:
+		<ol>
+			<li>Mario Kart 8 Deluxe</li>
+			<li>Super Mario Odyssey</li>
+			<li>Super Smash Bros. Ultimate</li>
+		</ol>
 	</li>
-	<li>Ordered LI 2</li>
-	<li>Ordered LI 3</li>
-</ol>
+	<li>Xbox One:
+		<ol>
+			<li>PlayerUnknown's Battlegrounds</li>
+			<li>Halo 5: Guardians</li>
+			<li>Battlefield 1</li>
+		</ol>
+	</li>
+	<li>Playstation 4:
+		<ol>
+			<li>Uncharted 4: A Thief's End</li>
+			<li>Marvel's Spider-Man</li>
+			<li>The Last of Us Remastered</li>
+		</ol>
+	</li>
+</ul>
 
+<!-- Creating a div that is aligned to the left side of the page and takes up 3/4 of the page width, has a 
+space of 20px between it and the previous element and has a class of 'outer-content' -->
+<!-- Most of this is done in CSS code -->
 <h4>III. DIV </h4>
 
-<!-- Create a div that is aligned to the left side of the page and takes up 3/4 of the page width, has a space of 20px between it and the previous elment and has a class of 'outer-content' (much of this is accomplished in css code-->
 
 <div class="outer-content">
     <div class="inner-content">
